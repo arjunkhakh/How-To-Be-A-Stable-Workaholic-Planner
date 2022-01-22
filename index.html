@@ -27,79 +27,80 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <center><div class="col-lg-10"> <button onclick="clearStorage()">Clear Storage!</button> </div></center>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
       <!-- <div class="row time-block">  -->
         <!-- 2 Classes can be put into one class tag as shown above -->
-        <div  id="9am"class="row time-block"> 
+        <div  id="9"class="row time-block"> 
           <div class="hour col-md-1"></div>
-          <textarea class="description col-md-10"></textarea> 
+          <textarea class="description col-md-10" id="9box"></textarea> 
           <button class="saveBtn col-md-1" ><i class="fas fa-save"></i>
           </button>
           </div>
 
-      <div  id="10am"class="row time-block"> 
+      <div  id="10"class="row time-block"> 
       <div class="hour col-md-1"></div>
-      <textarea class="description col-md-10"></textarea> 
+      <textarea class="description col-md-10" id="10box"></textarea> 
       <button class="saveBtn col-md-1" ><i class="fas fa-save"></i>
       </button>
       </div> 
 
-    <div id="11am"class="row time-block"> 
+    <div id="11"class="row time-block"> 
     <div class="hour col-md-1"></div>
-    <textarea class="description col-md-10"></textarea> 
+    <textarea class="description col-md-10" id="11box"></textarea> 
     <button class="saveBtn col-md-1" ><i class="fas fa-save"></i>
     </button>
     </div>
 
-    <div id="12pm"class="row time-block"> 
+    <div id="12"class="row time-block"> 
     <div class="hour col-md-1"></div>
-    <textarea class="description col-md-10"></textarea> 
+    <textarea class="description col-md-10" id="12box"></textarea> 
     <button class="saveBtn col-md-1" ><i class="fas fa-save"></i>
     </button>
     </div>
 
-    <div id="1pm"class="row time-block"> 
+    <div id="13"class="row time-block"> 
       <div class="hour col-md-1"></div>
-      <textarea class="description col-md-10"></textarea> 
+      <textarea class="description col-md-10"id="13box"></textarea> 
       <button class="saveBtn col-md-1" ><i class="fas fa-save"></i>
       </button>
       </div>
 
-      <div id="2pm"class="row time-block"> 
+      <div id="14"class="row time-block"> 
         <div class="hour col-md-1"></div>
-        <textarea class="description col-md-10"></textarea> 
+        <textarea class="description col-md-10" id="14box"></textarea> 
         <button class="saveBtn col-md-1" ><i class="fas fa-save"></i>
         </button>
         </div>
 
-      <div id="3pm"class="row time-block"> 
+      <div id="15"class="row time-block"> 
           <div class="hour col-md-1"></div>
-          <textarea class="description col-md-10"></textarea> 
+          <textarea class="description col-md-10" id="15box"></textarea> 
           <button class="saveBtn col-md-1" ><i class="fas fa-save"></i>
           </button>
           </div>
 
-        <div id="4pm"class="row time-block"> 
+        <div id="16"class="row time-block"> 
           <div class="hour col-md-1"></div>
-          <textarea class="description col-md-10"></textarea> 
+          <textarea class="description col-md-10" id="16box"></textarea> 
           <button class="saveBtn col-md-1" ><i class="fas fa-save"></i>
           </button>
           </div>
 
 
-        <div id="5pm"class="row time-block"> 
+        <div id="17"class="row time-block"> 
             <div class="hour col-md-1"></div>
-            <textarea class="description col-md-10"></textarea> 
+            <textarea class="description col-md-10" id="17box"></textarea> 
             <button class="saveBtn col-md-1" ><i class="fas fa-save"></i>
             </button>
             </div>
 
 
-        <div id="6pm"class="row time-block"> 
+        <div id="18"class="row time-block"> 
           <div class="hour col-md-1"></div>
-          <textarea class="description col-md-10"></textarea> 
+          <textarea class="description col-md-10" id="18box"></textarea> 
           <button class="saveBtn col-md-1" ><i class="fas fa-save"></i>
           </button>
           </div>
@@ -107,15 +108,10 @@
         <br>
      </div>
      </div>
-     <br>
-     <div class="col-lg-10"> <button onclick="clearStorage()">Clear Storage!</button> </div>
-
-
-     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
   <script src="./assets/javascript.js"></script>
-  <!-- <footer><button onclick="clearStorage()">Clear Storage!</button></footer> -->
+
 </html>
