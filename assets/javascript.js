@@ -38,7 +38,7 @@ for (i = 9; i < 19; i++) {
     // for this if statement, it gets a defined variable of the exact time and changes the background colour of the block to according what time it is.
     var t = new Date().getHours();
 
-    if (t = i) {
+    if (t == i) {
     document.getElementById(i + "box").style.backgroundColor = "#ff6961";
     document.getElementById(i + "box").style.color = "white";
     } else if (t < i) {
